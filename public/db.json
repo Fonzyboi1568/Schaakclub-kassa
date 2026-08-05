@@ -1,0 +1,129 @@
+{
+  "users": [
+    {
+      "name": "Fons",
+      "email": "vanderlindenfons@gmail.com",
+      "password": "Password123!",
+      "id": "1"
+    },
+    {
+      "name": "Tjerk",
+      "email": "Tjerk@gmail.com",
+      "password": "Password123!",
+      "id": "2"
+    },
+    {
+      "name": "Claudia",
+      "email": "claudia@gmail.com",
+      "password": "Password123!",
+      "id": "3"
+    }
+  ],
+  "drinks": [
+    {
+      "name": "Koffie",
+      "price": 1.2
+    },
+    {
+      "name": "Thee",
+      "price": 1.2
+    },
+    {
+      "name": "Fris",
+      "price": 1.2
+    },
+    {
+      "name": "Bier",
+      "price": 2
+    },
+    {
+      "name": "Nespresso",
+      "price": 1.5
+    },
+    {
+      "name": "Speciaalbier",
+      "price": 3
+    }
+  ],
+  "customers": [
+    {
+      "name": "Erik",
+      "id": "1"
+    },
+    {
+      "name": "Michiel",
+      "id": "3"
+    },
+    {
+      "name": "Tjerk",
+      "id": "4"
+    },
+    {
+      "name": "Fons",
+      "id": "5"
+    }
+  ],
+  "counters": {
+    "Fons": {
+      "drinks": {
+        "Thee": 3,
+        "Koffie": 2
+      },
+      "totalPrice": 6
+    }
+  },
+  "orderData": [
+    {
+      "customer": "Michiel",
+      "orders": [
+        {
+          "name": "Thee",
+          "price": 1.2
+        },
+        {
+          "name": "Thee",
+          "price": 1.2
+        },
+        {
+          "name": "Fris",
+          "price": 1.2
+        },
+        {
+          "name": "Fris",
+          "price": 1.2
+        }
+      ],
+      "totalPrice": 4.8,
+      "time": "05-08-2026, 15:59",
+      "id": 1
+    },
+    {
+      "customer": "Fons",
+      "orders": [
+        {
+          "name": "Thee",
+          "price": 1.2
+        },
+        {
+          "name": "Thee",
+          "price": 1.2
+        },
+        {
+          "name": "Thee",
+          "price": 1.2
+        },
+        {
+          "name": "Koffie",
+          "price": 1.2
+        },
+        {
+          "name": "Koffie",
+          "price": 1.2
+        }
+      ],
+      "totalPrice": 6,
+      "time": "05-08-2026, 15:59",
+      "id": 2
+    }
+  ]
+}
