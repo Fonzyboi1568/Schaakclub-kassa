@@ -116,7 +116,7 @@ export class TallySystemMain extends LitElement {
 
     connectedCallback() {
         super.connectedCallback();
-        if (Object.keys(this.counters).length >! ZERO) {
+        if (!Object.keys(this.counters).length > ZERO) {
             this.drinkCounters = this.counters[this.selectedCustomer].drinks;
         } else if (Object.keys(this.counters).length > ZERO) {
             this.drinks.forEach((drink) => {

@@ -48,33 +48,57 @@
   "customers": [
     {
       "name": "Erik",
-      "id": "1"
+      "id": 1
     },
     {
       "name": "Michiel",
-      "id": "3"
+      "id": 2
     },
     {
       "name": "Tjerk",
-      "id": "4"
+      "id": 3
     },
     {
       "name": "Fons",
-      "id": "5"
+      "id": 4
     }
   ],
   "counters": {
-    "Fons": {
+    "Tjerk": {
       "drinks": {
-        "Thee": 3,
-        "Koffie": 2
+        "Fris": 2,
+        "Bier": 2
       },
-      "totalPrice": 6
+      "totalPrice": 6.4
     }
   },
   "orderData": [
     {
-      "customer": "Michiel",
+      "customer": "Erik",
+      "orders": [
+        {
+          "name": "Fris",
+          "price": 1.2
+        },
+        {
+          "name": "Fris",
+          "price": 1.2
+        },
+        {
+          "name": "Bier",
+          "price": 2
+        },
+        {
+          "name": "Bier",
+          "price": 2
+        }
+      ],
+      "totalPrice": 6.4,
+      "time": "06-08-2026, 19:45",
+      "id": 1
+    },
+    {
+      "customer": "Erik",
       "orders": [
         {
           "name": "Thee",
@@ -94,36 +118,32 @@
         }
       ],
       "totalPrice": 4.8,
-      "time": "05-08-2026, 15:59",
-      "id": 1
+      "time": "06-08-2026, 19:45",
+      "id": 2
     },
     {
-      "customer": "Fons",
+      "customer": "Tjerk",
       "orders": [
         {
-          "name": "Thee",
+          "name": "Fris",
           "price": 1.2
         },
         {
-          "name": "Thee",
+          "name": "Fris",
           "price": 1.2
         },
         {
-          "name": "Thee",
-          "price": 1.2
+          "name": "Bier",
+          "price": 2
         },
         {
-          "name": "Koffie",
-          "price": 1.2
-        },
-        {
-          "name": "Koffie",
-          "price": 1.2
+          "name": "Bier",
+          "price": 2
         }
       ],
-      "totalPrice": 6,
-      "time": "05-08-2026, 15:59",
-      "id": 2
+      "totalPrice": 6.4,
+      "time": "06-08-2026, 19:45",
+      "id": 3
     }
   ]
 }
