@@ -7,7 +7,7 @@ Dit is V3 van de schaakclub kassa. Dit hobby project is bedoeld om het kassamede
 Om de kassa te bedienen moet je als enige kassamedewerker de bestellingen in een tabel op een papiertje schrijven terwijl je de klanten bedient en de werkplek schoonhoudt.
 
 Dit project is gemaakt om het moeilijkste en meest tijdvretende aspect van het kassabedienen op te lossen: het beheren van de bestellingen van elke klant.
-Daarnaast is het project bedoeld om te oefenen met frontend.
+Daarnaast is het project bedoeld om te oefenen met Lit programmeren.
 
 ## Status
 Het project is nog niet af, er is wel een pagina om drankjes op te schrijven bij een klant wat wordt opgeslagen in een json-server.
